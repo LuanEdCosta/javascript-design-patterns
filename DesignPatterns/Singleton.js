@@ -19,7 +19,6 @@ const singleton = new Singleton()
 // The instances are equal because the function returned the same instance as the created before
 console.log(singleton === new Singleton()) // === true
 
-
 // -----------------------------------------------------------------------------
 
 // Using closure concept
@@ -29,7 +28,7 @@ function Singleton2() {
   let instance = this
 
   // Override the original implementation.
-  Singleton2 = function() {
+  Singleton2 = function () {
     return instance
   }
 }
@@ -44,10 +43,10 @@ console.log(singleton2 === new Singleton2())
 let Singleton3
 
 // IIFE - Immediately-Invoked Function Expression
-(function(){
+;(function () {
   let instance
 
-  Singleton3 = function() {
+  Singleton3 = function () {
     if (instance) {
       return instance
     }

@@ -14,4 +14,3 @@ console.log(add(1, 1)) // === 2
 console.log(curryedAdd(1)(1)) // === 2
 console.log(uncurryedAdd(1, 1)) // === 2
 console.log(increment(1)) // === 6
-
