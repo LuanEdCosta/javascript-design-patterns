@@ -8,11 +8,11 @@ I decided to study more about design patterns to construct better softwares and 
 
 ## :memo: Design Patterns And What I Learned About Each One
 
-- **CURRY**
-Currying is a process to reduce functions of more than one argument to functions of one argument with the help of lambda calculus. It's expensively used in real projects like React and Redux (like the  `react-redux connect()` function) and it's very easy to implement.
+- **Curry**
+  Currying is a process to reduce functions of more than one argument to functions of one argument with the help of lambda calculus. It's expensively used in real projects like React and Redux (like the `react-redux connect()` function) and it's very easy to implement.
 
 - **Singleton**
-The Singleton pattern is a way to ensure that a Class/Function will have only one active instance. That means that for all the instantiations after the first one, the same instance will be returned. A singleton should be immutable by the consuming code, and there should be no danger of instantiating more than one of them.
+  The Singleton pattern is a way to ensure that a Class/Function will have only one active instance. That means that for all the instantiations after the first one, the same instance will be returned. A singleton should be immutable by the consuming code, and there should be no danger of instantiating more than one of them.
 
 ## :newspaper: Useful Links
 
@@ -31,3 +31,9 @@ The Singleton pattern is a way to ensure that a Class/Function will have only on
 1. Install the **Code Runner** VsCode extension
 2. Select a .js file
 3. Right click with the mouse and select **Run Code**
+
+OR
+
+1. Open terminal and navigate to the project folder
+2. Type `node DesignPatterns/FILE_NAME.js`
+   _Replace `FILE_NAME` by the name of the file that you want to run._
