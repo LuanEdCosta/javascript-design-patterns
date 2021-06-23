@@ -44,3 +44,7 @@ OR
 1. Open terminal and navigate to the project folder
 2. Type `node DesignPatterns/FILE_NAME.js`
    _Replace `FILE_NAME` by the name of the file that you want to run._
+
+## :man: Author
+
+Luan Eduardo da Costa | [Follow me on Linkedin](https://www.linkedin.com/in/luaneducosta/)
